@@ -4,9 +4,9 @@ var http = require('http'),
 
 http.createServer(function (req, res) {
     //Parses the URL and returns a JSON of the passed parameters
-    var parsedURL = url.parse(req.url, true),
-        query = parsedURL.query;
-
+    var parsedURL = url.parse(req.url, true);
+    var query = parsedURL.query;
+    debugger;
     res.writeHead(200, {'Content-Type': 'application/json'});
     res.end(JSON.stringify(query));
 }).listen(9001);

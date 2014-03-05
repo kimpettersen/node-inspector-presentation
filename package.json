@@ -1,0 +1,11 @@
+{
+  "name": "node-inspector",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimpettersen/node-inspector-presentation.git"
+  },
+  "dependencies": {
+    "node-inspector": "*"
+  }
+}

@@ -1,17 +1,21 @@
 Node inspector
-https://github.com/node-inspector/node-inspector
+Using web sockets so you can open and debug using developer tools from your browser.
 
-npm install -g node-inspector
 
-Demonstration
+Install with npm
 
-simple.js
-- see values
-- debugger
 
-Server
-- how to inspect
+- Inspecting elements
+- Watching elements
+- Next function call
+- Live edit
+- debugger to programatically insert breakpoints
 
 Remote debugging
 - http://10.192.61.67:8080/debug?port=5858
+
+Embed into other applications
+
+
+It's a bit flaky, but definitely a very useful tools
 
