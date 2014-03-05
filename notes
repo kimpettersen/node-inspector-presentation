@@ -1,0 +1,17 @@
+Node inspector
+https://github.com/node-inspector/node-inspector
+
+npm install -g node-inspector
+
+Demonstration
+
+simple.js
+- see values
+- debugger
+
+Server
+- how to inspect
+
+Remote debugging
+- http://10.192.61.67:8080/debug?port=5858
+
